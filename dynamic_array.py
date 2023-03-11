@@ -48,15 +48,3 @@ class Array:
     def clear(self):
         self.length = 0
         self.capacity = 1
-
-
-array = Array(3)
-
-array.append(10)
-array.append(20.3)
-array.append("hello")
-array.append(True)
-
-print(array)
-
-print("Done")

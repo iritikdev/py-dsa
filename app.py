@@ -1,13 +1,16 @@
-from stack_list import StackLinkedList
+from queue_list import QueueLinkedList
 
-list = StackLinkedList()
+queue = QueueLinkedList()
 
-list.push(10)
-list.push(20)
-list.push(30)
+queue.add(10)
+queue.add(20)
+queue.add(30)
 
-print(list)
+queue.remove()
 
-print(list.pop())
+queue.add(40)
 
-print(list)
+
+print(queue)
+
+queue.length()
