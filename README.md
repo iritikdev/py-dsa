@@ -42,5 +42,33 @@ list.addFirst(5)
 print(list)
 ```
 
+## Stack Linked List
+A stack is a data structure that follows the Last In First Out (LIFO) principle, where the last element added to the stack is the first one to be removed. The stack linked list implementation in this project uses a linked list to store its elements.
+
+### Usage
+
+```
+from stack_linked_list import StackLinkedList
+
+# create an empty stack
+stack = StackLinkedList()
+
+# push elements onto the stack
+stack.push(1)
+stack.push(2)
+stack.push(3)
+
+# get the length of the stack
+print(len(stack)) # output: 3
+
+# access the top element of the stack
+print(stack.top()) # output: 3
+
+# pop an element from the stack
+stack.pop()
+
+# print the contents of the stack
+print(stack) # output: 2 -> 1 -> None
+```
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute this code.
